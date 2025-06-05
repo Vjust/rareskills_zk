@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y2",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hw0.sol": "ECC"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hw0.sol": {
+			"keccak256": "0x116cc5a5dc608180f479bba1c6a7ac6dcc1b9d8ab010862368bedf9a921be224",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://336845e225cf999a19595f073854d7aba3e6f938b2cf3bf2d3c710e0e399b275",
+				"dweb:/ipfs/QmWa8UTtPndxfr5VoJb3EFsFZt4NtUxo8Fs6Nn8Wx6o8yo"
+			]
+		}
+	},
+	"version": 1
+}

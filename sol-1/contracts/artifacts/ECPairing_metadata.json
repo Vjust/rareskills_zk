@@ -1,0 +1,148 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ECPairing.G1",
+						"name": "A",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x1",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "x1_im",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y1",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y1_im",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ECPairing.G2",
+						"name": "B",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ECPairing.G1",
+						"name": "C",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "x1",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "x1_im",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y1",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "y1_im",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ECPairing.G2",
+						"name": "D",
+						"type": "tuple"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/t1.sol": "ECPairing"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/t1.sol": {
+			"keccak256": "0x88d5abfb8511d0ee4383e2f28fa52c96b43b3c6df163c3152f6fe8280db7efb1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fdc535320d8b212b5af43942b1dee5ddc89b15612a003e8c4a4d040bdab8966c",
+				"dweb:/ipfs/QmfNkLVRu47My5txAFZDz8QCe4F9Rfz3T88fsdRxFHCas4"
+			]
+		}
+	},
+	"version": 1
+}

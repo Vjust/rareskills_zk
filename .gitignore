@@ -1,0 +1,7 @@
+.venv
+.venv/**
+.venv_3.12
+.venv_*
+.DS_Store
+.python-version
+firefly
